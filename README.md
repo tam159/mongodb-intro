@@ -1,0 +1,1 @@
+# There are practices of MongoDB and Python interaction using pymongo library
