@@ -8,7 +8,7 @@ conn_str = config["mongodb_dev"]
 client = MongoClient(conn_str)
 print(client.list_database_names())
 
-db = client["flow-backoffice"]
+db = client["db"]
 print(db.list_collection_names())
 
 issuer = db.Issuer.find_one()
